@@ -6,6 +6,9 @@ See my macos dotfiles for a Wezterm & Yabai setup: [volskaya/dotfiles](https://g
 
 See [lazy.nvim](http://lazy.folke.io) on which this config is built on.
 
+![Screenshot 2024-08-13 at 15 48 24](https://github.com/user-attachments/assets/9d2b84c8-3948-48b6-b733-d051585adf9a)
+
+
 ## Features ✨
 
 - **Window Scoped Buffer Switching** 🪟: Replaces default buffer keymaps with [windovigation.nvim](https://github.com/volskaya/windovigation.nvim) to switch based on file history in the active window split, like VSCode.
@@ -17,7 +20,7 @@ See [lazy.nvim](http://lazy.folke.io) on which this config is built on.
 - **Multicursors** ✏️: Multicursor mode with `Meta + jk` or `Meta + d`.
 - **Bigfile Antilag** 🚀: Automatically disables expensive operations for large files.
 - **Sessions** 💾: Session restoration based on the directory nvim was opened.
-- **Cmp** 🧩: Customized auto completion with LSP, copilot, native snippets, custom weights and more. Tooltip visual customized similar to VSCode.
+- **Completion** 🧩: Customized auto completion with LSP, copilot, native snippets, custom weights and more. Tooltip visual customized similar to VSCode.
 
 ## Colorscheme 🎨
 
