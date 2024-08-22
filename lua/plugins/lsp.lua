@@ -13,6 +13,8 @@ return {
         "typescript-language-server",
         "css-lsp",
         "emmet-ls",
+        "prettier",
+        "djlint",
       })
     end,
   },
@@ -181,6 +183,7 @@ return {
             "pug",
             "typescriptreact",
             "vue",
+            "twig",
           },
           init_options = {
             html = {

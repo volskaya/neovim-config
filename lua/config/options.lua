@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 vim.g.trouble_lualine = false
 vim.g.lazygit_config = false
+vim.g.lazyvim_php_lsp = "intelephense"
 
 vim.scriptencoding = "utf-8"
 vim.opt.encoding = "utf-8"

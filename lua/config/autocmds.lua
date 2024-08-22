@@ -12,3 +12,11 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt.conceallevel = 0
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "php", "twig" },
+  callback = function()
+    vim.bo.shiftwidth = 4
+    vim.bo.tabstop = 4
+  end,
+})
