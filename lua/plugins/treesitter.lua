@@ -32,6 +32,8 @@ return {
         "svelte",
         "dart",
         "fish",
+        "html",
+        "twig",
         -- "org",
       },
 
